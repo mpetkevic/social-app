@@ -1,0 +1,26 @@
+.Cart {
+  text-align: center;
+
+  h1 {
+    @include heading1;
+  }
+
+  .container {
+    margin-top: 50px;
+
+  }
+  .order {
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+
+    strong {
+      position: absolute;
+      top:5px;
+      right: 5px;
+      color: red;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.Menu-Items {
+  margin-top:40px;
+
+.container {
+    justify-content: center;
+    display: flex;
+  }
+.menu-item {
+    width: 200px;
+    margin:20px;
+    background: #eee;
+    min-height: 120px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h3{
+    font-size:28px;
+    margin-top:-15px;
+    letter-spacing: 2px;
+    width:100%;
+  }
+  p, span{
+    width:100%;
+  }
+}

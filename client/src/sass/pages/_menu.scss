@@ -1,0 +1,18 @@
+.Menu {
+  text-align: center;
+  h1{
+    @include heading1
+  }
+  .categories{
+    margin-top: 20px;
+    a {
+      font-size: 20px;
+      text-align: center;
+      width: 150px;
+      display: inline-block;
+    }
+    .active {
+      border-bottom: 2px solid red;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.popup {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 4px 7px 10px rgba(0,0,0, 0.5);
+}

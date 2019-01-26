@@ -1,0 +1,16 @@
+@mixin heading1{
+  text-align: center;
+  font-size: 32px;
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: red;
+    left: 15px;
+    top: 10px;
+    z-index: -1;
+  }
+}
